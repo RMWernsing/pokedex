@@ -9,9 +9,17 @@ main {
   flex-grow: 1;
 }
 
+.img-size {
+  min-height: 30dvh;
+}
+
 #pop-toast-container {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: end;
+}
+
+.active-card-bg {
+  background-color: rgb(15, 115, 32);
 }
