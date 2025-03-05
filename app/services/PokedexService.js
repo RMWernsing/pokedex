@@ -21,6 +21,8 @@ class PokedexService {
     AppState.activePokemon = pokemon
   }
 
+
+
 }
 
 export const pokedexService = new PokedexService()

@@ -8,6 +8,7 @@ export class ActivePokemon {
     this.attackPower = data.stats[1].base_stat;
     this.defense = data.stats[2].base_stat;
     this.speed = data.stats[5].base_stat;
+    this.img = data.sprites.front_default;
     this.frontImageUrl = data.sprites.front_default;
     this.backImageUrl = data.sprites.back_default;
 
@@ -18,7 +19,7 @@ export class ActivePokemon {
           <div class="active-card-bg shadow-lg p-3 mt-2 text-light sticky-top">
           <div class="d-flex justify-content-between">
           <h1 class="text-capitalize">${this.name}</h1>
-          <button type="button" class="btn btn-indigo">Add To Collection +</button>
+          <button onclick="app.sandboxController.savePokemon()" type="button" class="btn btn-indigo">Add To Collection +</button>
           </div>
             <hr>
             <div class="d-flex justify-content-center">
