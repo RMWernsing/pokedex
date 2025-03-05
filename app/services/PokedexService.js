@@ -1,5 +1,6 @@
 import { AppState } from "../AppState.js";
-import { ActivePokemon, PokemonList } from "../models/Pokemon.js";
+import { PokemonList } from "../models/Pokemon.js";
+import { ActivePokemon } from "../models/ActivePokemon.js";
 import { pokedexApi } from "../utils/Axios.js"
 
 class PokedexService {
