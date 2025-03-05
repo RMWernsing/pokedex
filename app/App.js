@@ -1,8 +1,9 @@
-import { ExampleController } from './controllers/ExampleController.js';
+import { PokedexController } from "./controllers/PokedexController.js"
+
 
 class App {
 
-  ExampleController = new ExampleController() // ☑️ you can remove this - example only
+  pokedexController = new PokedexController()
 
 }
 
